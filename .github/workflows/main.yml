@@ -15,4 +15,8 @@ jobs:
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.PRIVATE_KEY }}
           script: |
-            echo "✅ Connected to server $(hostname)"
+            echo "===== TEST START ====="
+            hostname
+            whoami
+            echo "✅ Connected to server successfully!"
+            echo "===== TEST END ====="
