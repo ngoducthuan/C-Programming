@@ -16,7 +16,8 @@ jobs:
           key: ${{ secrets.PRIVATE_KEY }}
           script: |
             echo "===== TEST START ====="
-            hostname
-            whoami
-            echo "✅ Connected to server successfully!"
+            script: |
+            echo "User: $(id -un)"
+            echo "UID: $(id -u)"
+            echo "Host: $(hostname)"
             echo "===== TEST END ====="
