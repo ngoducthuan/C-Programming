@@ -10,8 +10,8 @@ A variable is a named storage location in a program that holds a value of a spec
 - **Variable Content**: The actual data stored in the variable (e.g., `25`, `9`).
 - **Variable Address**: The memory location where the variable's content is stored, accessed using the `&` operator.
 
-## Expressions
-Expressions in C involve operations on variables, including declarations, assignments, and reading input.
+## Working with Variables in C
+Involve operations on variables, including declarations, assignments, and reading input.
 
 ### Variable Declaration
 Variable declaration involves defining a variable by specifying its type and name. This reserves memory for the variable.
