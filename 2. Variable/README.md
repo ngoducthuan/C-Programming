@@ -17,7 +17,7 @@ Involve operations on variables, including declarations, assignments, and readin
 Variable declaration involves defining a variable by specifying its type and name. This reserves memory for the variable.
 
 - **Syntax**:
-    <type> <name>;
+    type name;
 - **Example**:
     ```c
     int age;
@@ -27,7 +27,7 @@ Variable declaration involves defining a variable by specifying its type and nam
 ### Assignment
 Assignment involves storing a value in a variable.
 - **Syntax**:
-    <name> = <value>;
+    name = value;
 - **Example**:
     ```c
     int age;
