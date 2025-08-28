@@ -31,7 +31,6 @@ Assignment involves storing a value in a variable.
 - **Example**:
     ```c
     int age;
-    int age;
     age = 25;
     ```
 ### Reading Input from User
@@ -44,3 +43,7 @@ C provides the scanf function to read input from the user and store it in a vari
     scanf("%d", &grade1); // Reads an integer from user input and stores it in grade1
     printf("You entered: %d\n", grade1); // Prints the value stored in grade1
     ```
+## Casting
+Casting (or type casting) in C means converting one data type into another.
+    int num1, num2;
+    result = (float)num1/num2;
